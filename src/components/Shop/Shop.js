@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import "./Shop.css";
 
 import { getProducts, addToCart } from "../../ducks/productReducer";
 
@@ -17,7 +18,7 @@ class Shop extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="shop-bg">
         {this.props.products[0] ? (
           this.props.products.map((val, i) => (
             <div key={i}>

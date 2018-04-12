@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./LandingPage.css";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 
@@ -9,9 +10,8 @@ class LandingPage extends Component {
     this.props.getUser();
   }
   render() {
-    console.log(this.props);
     return (
-      <div>
+      <div className="bgImg">
         {this.props.user.name ? (
           <div>
             <p>

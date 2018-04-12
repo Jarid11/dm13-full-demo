@@ -1,0 +1,8 @@
+.shop-bg {
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1520239089227-315f14c7aee0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0a84ffabc9652559791c2cf9cc548d&auto=format&fit=crop&w=750&q=80");
+}
